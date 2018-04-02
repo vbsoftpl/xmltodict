@@ -2,7 +2,7 @@
 
 `xmltodict` is a Python module that makes working with XML feel like you are working with [JSON](http://docs.python.org/library/json.html), as in this ["spec"](http://www.xml.com/pub/a/2006/05/31/converting-between-xml-and-json.html):
 
-[![Build Status](https://secure.travis-ci.org/martinblech/xmltodict.png)](http://travis-ci.org/martinblech/xmltodict)
+[![Build Status](https://secure.travis-ci.org/martinblech/xmltodict.svg)](http://travis-ci.org/martinblech/xmltodict)
 
 ```python
 >>> print(json.dumps(xmltodict.parse("""
@@ -175,7 +175,7 @@ $ pip install xmltodict
 
 ### RPM-based distro (Fedora, RHEL, …)
 
-There is an [official Fedora package for xmltodict](https://admin.fedoraproject.org/pkgdb/acls/name/python-xmltodict).
+There is an [official Fedora package for xmltodict](https://apps.fedoraproject.org/packages/python-xmltodict).
 
 ```sh
 $ sudo yum install python-xmltodict
